@@ -1,0 +1,39 @@
+.destination-card {
+  position: relative;
+  width: 255px;
+  height: 270px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional dark overlay for text readability */
+.destination-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.destination-label {
+  position: relative;
+  background: #ffffff;
+  padding: 8px 22px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  z-index: 1;
+  border: 1px solid black;
+}
+
+/* Hover effect */
+.destination-card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}

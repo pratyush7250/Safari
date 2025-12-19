@@ -1,0 +1,95 @@
+.trip-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+/* Header */
+.trip-header {
+    width: 100%;
+    margin: 20px 20px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trip-header .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.trip-header h2 {
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+/* Arrows */
+.trip-arrows {
+    display: flex;
+    gap: 10px;
+}
+
+.trip-arrows button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Slider Wrapper (IMPORTANT) */
+.trip-slider-wrapper {
+    overflow: hidden;
+}
+
+/* Slider */
+.trip-slider {
+    max-width:90%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.trip-slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+.view-all-btn {
+    background: #ea580c;
+    color: #ffffff;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+@media (max-width:768px){
+    .trip-arrows{
+        display: none;
+    }
+    .trip-header .title {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
