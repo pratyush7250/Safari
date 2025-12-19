@@ -1,0 +1,156 @@
+.kili-wrapper {
+    background: #fde9dc;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+/* ===== RATING BAR ===== */
+.rating-bar {
+    background: #e67e22;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.stars svg {
+    color: #ffd700;
+    margin: 0 1px;
+}
+
+/* ===== BOOK WITH CONFIDENCE ===== */
+.confidence {
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.confidence h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.confidence-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.confidence-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #333;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.confidence-item .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.confidence-item .icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.confidence-item .icon svg {
+    color: #e67e22;
+}
+
+.confidence-btn {
+    margin-top: 50px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ===== KILIMANJARO TREKKING ===== */
+.kili-trekking {
+    padding: 40px 80px 80px;
+    text-align: center;
+}
+
+.kili-trekking h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.kili-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.kili-btn {
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+
+    .confidence-items,
+    .kili-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .confidence,
+    .kili-trekking {
+        padding: 40px 20px;
+    }
+
+    .confidence-item {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .confidence-items {
+        grid-template-columns: 1fr;
+        gap:30px;
+    }
+
+    .kili-grid {
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
