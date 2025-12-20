@@ -22,7 +22,7 @@ import zebra from './zebra.jpg'
 import smallChita from './smallChita.jpg'
 
 
-import mountainiland from './mountainiland.jpg'
+import mountainIland from './mountainIland.jpg'
 import footbridge from './footbridge.jpg'
 import lack from './lack.jpg'
 import lackCave from './lackCave.jpg'
@@ -193,7 +193,7 @@ export const tripData = [
 export const kilimanjaroData = [
     {
         id: 1,
-        image: mountainiland,
+        image: mountainIland,
         rating: 4.6,
         title: "Thai Island Hopper West",
         days: 8,
