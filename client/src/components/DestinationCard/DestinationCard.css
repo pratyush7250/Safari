@@ -2,7 +2,7 @@
   position: relative;
   width: 255px;
   height: 270px;
-  border-radius: 12px;
+  border-radius: 7px;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -12,7 +12,6 @@
   justify-content: center;
 }
 
-/* Optional dark overlay for text readability */
 .destination-card::before {
   content: "";
   position: absolute;
@@ -23,17 +22,13 @@
 .destination-label {
   position: relative;
   background: #ffffff;
-  padding: 8px 22px;
+  padding: 12px 24px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: #000;
   z-index: 1;
   border: 1px solid black;
 }
 
-/* Hover effect */
-.destination-card:hover {
-  transform: translateY(-4px);
-  transition: 0.3s ease;
-}
+

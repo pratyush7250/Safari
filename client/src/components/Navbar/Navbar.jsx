@@ -3,16 +3,16 @@ import { assets } from "../../assets/assets";
 import "./Navbar.css";
 import { FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [menu, setMenu] = useState("destinations");
   const [openDropdown, setOpenDropdown] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [mobileDropdown, setMobileDropdown] = useState(null); // ✅ NEW
+  const [mobileDropdown, setMobileDropdown] = useState(null); 
 
   return (
     <>
-      {/* Top bar */}
       <div className="nav-up-content">
         <ul className="nav-info">
           <li>Contact us</li>
@@ -21,25 +21,23 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Navbar */}
       <div className="navbar">
         <img src={assets.logo} alt="logo" className="logo" />
 
         <ul className="navbar-menu">
-          <li onClick={() => setMenu("destinations")} className={menu === "destinations" ? "active" : ""}>
+          <a href="#destination" onClick={() => setMenu("destinations")} className={menu === "destinations" ? "active" : ""}>
             DESTINATIONS
-          </li>
-          <li onClick={() => setMenu("safari")} className={menu === "safari" ? "active" : ""}>
+          </a>
+          <a href="#safari" onClick={() => setMenu("safari")} className={menu === "safari" ? "active" : ""}>
             SAFARI
-          </li>
-          <li onClick={() => setMenu("kilimanjaro")} className={menu === "kilimanjaro" ? "active" : ""}>
+          </a>
+          <a href="#kilimanzaro" onClick={() => setMenu("kilimanjaro")} className={menu === "kilimanjaro" ? "active" : ""}>
             KILIMANJARO
-          </li>
-          <li onClick={() => setMenu("zanzibar")} className={menu === "zanzibar" ? "active" : ""}>
+          </a>
+          <a href="#zanzibar" onClick={() => setMenu("zanzibar")} className={menu === "zanzibar" ? "active" : ""}>
             ZANZIBAR
-          </li>
+          </a>
 
-          {/* Travel Styles Dropdown */}
           <li
             className="dropdown"
             onMouseEnter={() => setOpenDropdown("travel")}
@@ -54,7 +52,6 @@ const Navbar = () => {
             </ul>
           </li>
 
-          {/* About Imara Dropdown */}
           <li
             className="dropdown"
             onMouseEnter={() => setOpenDropdown("about")}
@@ -70,7 +67,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Right Icons */}
         <div className="navbar-right">
           <div className="icon">
             <FaWhatsapp size={18} />
@@ -84,19 +80,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* MOBILE DRAWER */}
       <div className={`mobile-drawer ${drawerOpen ? "open" : ""}`}>
         <div className="drawer-header">
           <FaTimes size={22} onClick={() => setDrawerOpen(false)} />
         </div>
 
         <ul className="drawer-menu">
-          <li>DESTINATIONS</li>
-          <li>SAFARI</li>
-          <li>KILIMANJARO</li>
-          <li>ZANZIBAR</li>
+          <a href="#destination" >DESTINATIONS</a>
+          <a href="#safari" >SAFARI</a>
+          <a href="#kilimanzaro" >KILIMANJARO</a>
+          <a href="#zanzibar" >ZANZIBAR</a>
 
-          {/* ✅ TRAVEL STYLES DROPDOWN */}
           <li
             className="drawer-dropdown"
             onClick={() =>
@@ -114,7 +108,6 @@ const Navbar = () => {
             </ul>
           )}
 
-          {/* ✅ ABOUT IMARA DROPDOWN */}
           <li
             className="drawer-dropdown"
             onClick={() =>
@@ -136,7 +129,6 @@ const Navbar = () => {
         <button className="drawer-btn">VIEW TRIP</button>
       </div>
 
-      {/* Overlay */}
       {drawerOpen && <div className="drawer-overlay" onClick={() => setDrawerOpen(false)} />}
     </>
   );

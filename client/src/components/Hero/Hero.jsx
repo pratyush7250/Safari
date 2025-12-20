@@ -40,14 +40,12 @@ const Hero = () => {
                 ))}
             </div>
 
-            {/* Arrows */}
             <div className="arrow left" onClick={prevSlide}>
                 <FaArrowLeftLong size={20} />
             </div>
             <div className="arrow right" onClick={nextSlide}>
                 <FaArrowRightLong size={20} />
             </div>
-            {/* Dots */}
             <div className="dots">
                 {slides.map((_, index) => (
                     <span

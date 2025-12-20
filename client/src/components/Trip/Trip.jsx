@@ -22,8 +22,7 @@ const Trip = () => {
   };
 
   return (
-    <div className="trip-section">
-      {/* Header */}
+    <div className="trip-section" id="safari">
       <div className="trip-header">
        <div className="title">
          <h2>Booked While You Were Scrolling</h2>
@@ -39,7 +38,6 @@ const Trip = () => {
         </div>
       </div>
 
-      {/* Slider */}
       <div className="trip-slider" ref={sliderRef}>
         {tripData.map((trip) => (
           <TripCard key={trip.id} trip={trip} />

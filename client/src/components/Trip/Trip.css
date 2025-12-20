@@ -6,7 +6,6 @@
     margin-top: 50px;
 }
 
-/* Header */
 .trip-header {
     width: 100%;
     margin: 20px 20px;
@@ -31,7 +30,6 @@
 
 }
 
-/* Arrows */
 .trip-arrows {
     display: flex;
     gap: 10px;
@@ -49,12 +47,10 @@
     cursor: pointer;
 }
 
-/* Slider Wrapper (IMPORTANT) */
 .trip-slider-wrapper {
     overflow: hidden;
 }
 
-/* Slider */
 .trip-slider {
     max-width:90%;
     margin: 0 auto;
@@ -74,7 +70,7 @@
 
 
 .view-all-btn {
-    background: #ea580c;
+    background: #D87027;
     color: #ffffff;
     border: none;
     padding: 14px 32px;
@@ -83,6 +79,10 @@
     font-weight: 600;
     cursor: pointer;
     margin-top: 20px;
+}
+.view-all-btn:hover{
+       background: #C1570D;
+ 
 }
 @media (max-width:768px){
     .trip-arrows{

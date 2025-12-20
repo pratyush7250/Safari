@@ -51,7 +51,7 @@
 }
 
 .hero-btn {
-  background: #d5661a;
+  background: #D87027;
   border: none;
   padding: 14px 28px;
   color: #fff;
@@ -63,10 +63,9 @@
 }
 
 .hero-btn:hover {
-  background: #cf711f;
+  background: #C1570D;
 }
 
-/* Arrows */
 .arrow {
   position: absolute;
   top: 50%;
@@ -92,7 +91,6 @@
   right: 20px;
 }
 
-/* Dots */
 .dots {
   position: absolute;
   bottom: 25px;
@@ -114,7 +112,6 @@
   background: #fff;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 36px;

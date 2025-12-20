@@ -13,9 +13,7 @@ import {
 const FooterBottom = () => {
   return (
     <>
-      {/* PEACH SECTION */}
       <div className="footer-peach">
-        {/* LEFT */}
         <div className="footer-region">
           <span className="flag">🏴</span>
           <div>
@@ -24,7 +22,6 @@ const FooterBottom = () => {
           </div>
         </div>
 
-        {/* CENTER */}
         <div className="footer-center">
           <div className="cards">
             <FaCcVisa />
@@ -43,7 +40,6 @@ const FooterBottom = () => {
           </p>
         </div>
 
-        {/* RIGHT */}
         <div className="footer-right">
           <div className="socials">
             <FaFacebookF />
@@ -66,7 +62,6 @@ const FooterBottom = () => {
         </div>
       </div>
 
-      {/* ORANGE SECTION */}
       <div className="footer-orange">
         <div className="logos">
           <span>IATA</span>

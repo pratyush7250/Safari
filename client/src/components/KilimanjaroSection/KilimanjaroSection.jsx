@@ -15,8 +15,7 @@ import TripCard from "../TripCard/TripCard";
 
 const KilimanjaroSection = () => {
     return (
-        <section className="kili-wrapper">
-            {/* TOP RATING BAR */}
+        <section className="kili-wrapper" >
             <div className="rating-bar">
                 <span>
                     RATED 4.7/5{" "}
@@ -27,7 +26,6 @@ const KilimanjaroSection = () => {
                 </span>
             </div>
 
-            {/* BOOK WITH CONFIDENCE */}
             <div className="confidence">
                 <h2>Book With Confidence</h2>
 
@@ -65,8 +63,7 @@ const KilimanjaroSection = () => {
                 <button className="confidence-btn">FIND OUT MORE</button>
             </div>
 
-            {/* KILIMANJARO TREKKING */}
-            <div className="kili-trekking">
+            <div className="kili-trekking" id="kilimanzaro">
                 <h2>Kilimanjaro Trekking</h2>
 
                 <div className="kili-grid">

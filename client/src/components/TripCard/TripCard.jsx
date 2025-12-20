@@ -10,7 +10,6 @@ import "./TripCard.css";
 
 const TripCard = ({ trip }) => {
 
-  // 🔥 BLACK FRIDAY CARD
   if (trip.blackFriday) {
     return (
       <div className="trip-card black-friday-card">

@@ -27,7 +27,7 @@
     left: 16px;
     background: #ffffff;
     padding: 6px 12px;
-    border-radius: 20px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -76,12 +76,12 @@
 
 .trip-desc {
     font-size: 14px;
-    color: #64748b;
+    color: #000000;
     line-height: 1.5;
     text-align: left;
+    font-weight: 600;
 }
 
-/* Footer */
 .trip-footer {
     padding: 0 20px 20px;
     display: flex;
@@ -97,27 +97,30 @@
 
 .label {
     font-size: 12px;
-    color: #64748b;
-        text-align: left;
+    color: #535252;
+    text-align: left;
+    font-weight: 600;
 
 }
 
 .old-price {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    color: #0f172a;
-        text-align: left;
+    color: #535252;
+    text-align: left;
+    font-weight: 600;
 
 }
 
 .from {
+    margin-top: 7px;
     font-size: 16px;
     font-weight: 700;
     color: #0f172a;
 }
 
 .btn-trip {
-    background: #ea580c;
+    background: #D87027;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -127,6 +130,9 @@
     cursor: pointer;
 }
 
+.btn-trip:hover {
+    background-color: #C1570D;
+}
 
 
 .black-friday-card {

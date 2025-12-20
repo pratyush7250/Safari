@@ -5,10 +5,8 @@ import FooterBottom from "../FooterBottom/FooterBottom";
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* TOP SECTION */}
       <div className="footer-container">
 
-        {/* LEFT LINKS */}
         <div className="footer-links-wrapper">
           <div className="footer-col">
             <h4>Help & Info</h4>
@@ -45,7 +43,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* RIGHT NEWSLETTER */}
         <div className="footer-newsletter">
           <h4>Save up to $2,034*!</h4>
           <p>
@@ -72,7 +69,7 @@ const Footer = () => {
               <input type="checkbox" required/>
               <span>
                 By checking this box, you accept the Trafalgar{" "}
-                <a href="/">privacy policy</a>
+                <a href="/" className="privacy-policy">privacy policy</a>
               </span>
             </label>
 
@@ -83,7 +80,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* BOTTOM LEGAL / ADDRESS */}
       <div className="footer-bottom">
         <p>
           Imara Kileleni Safaris is a proud member of{" "}

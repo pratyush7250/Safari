@@ -32,6 +32,9 @@
     cursor: pointer;
     margin-top: 20px;
 }
+.view-all-btn:hover{
+    background-color: #C1570D;
+}
 
 
 @media (max-width: 1200px) {

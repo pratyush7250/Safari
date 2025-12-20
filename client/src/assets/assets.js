@@ -2,9 +2,33 @@ import logo from './logo.png'
 
 
 
-import lion from './lion.jpg'
-import hike from './hike.jpg'
+import lions from './lions.jpg'
+import africatracking from './africatracking.jpg'
+import chitta from './chitta.jpg'
+import tracking from './tracking.jpg'
 import safari from './safari.jpg'
+import iland from './iland.jpg'
+
+
+import chimpanzee from './chimpanzee.jpg'
+import crocodile from './crocodile.jpg'
+import cubs from './cubs.jpg'
+import deear from './deear.jpg'
+import elephant from './elephant.jpg'
+import grassy from './grassy.jpg'
+import lion from './lion.jpg'
+import rhinoceros from './rhinoceros.jpg'
+import zebra from './zebra.jpg'
+import smallChita from './smallChita.jpg'
+
+
+import mountainiland from './mountainiland.jpg'
+import footbridge from './footbridge.jpg'
+import lack from './lack.jpg'
+import lackCave from './lackCave.jpg'
+
+
+
 
 import slide1 from './slide1.png'
 import slide2 from './slide2.jpg'
@@ -20,7 +44,7 @@ export const assets = {
 
 export const slides = [
     {
-        image:slide1,
+        image:slide3,
         title: "EXPLORE TANZANIA",
         subtitle:
             "More than just another trip, an African safari is the beginning of a love affair with all things wild...",
@@ -32,7 +56,7 @@ export const slides = [
             "Experience breathtaking landscapes, wildlife, and unforgettable adventures.",
     },
     {
-        image:slide3,
+        image:slide1,
         title: "WILD SAFARIS",
         subtitle:
             "Journey into the heart of nature and explore the untamed wilderness.",
@@ -41,59 +65,59 @@ export const slides = [
 export const wayData = [
     {
         title: "Serengeti",
-        image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e",
+        image: chimpanzee,
     },
     {
         title: "Gombe",
-        image: "https://images.unsplash.com/photo-1508672019048-805c876b67e2",
+        image:zebra,
     },
     {
         title: "Zanzibar",
-        image: "https://images.unsplash.com/photo-1546182990-dffeafbe841d",
+        image: deear,
     },
     {
         title: "Tarengire",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+        image: rhinoceros,
     },
     {
         title: "Manyara",
-        image: "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+        image: lions,
     },
     {
         title: "Serengeti",
-        image: "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13",
+        image: smallChita,
     },
     {
         title: "Gombe",
-        image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+        image: grassy,
     },
     {
         title: "Zanzibar",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        image: elephant,
     }
 ];
 
 export const tripData = [
     {
         id: 1,
-        image: lion,
-        rating: 4.6,
-        title: "Tanzania Family Safaris",
-        days: 8,
-        places: 3,
+        image: africatracking,
+        rating: 4.8,
+        title: "Tanzania Safari Adventure",
+        days: 3,
+        places: 5,
         country: 1,
         description:
-            "The one that takes you to west Thailand for a tour of Phuket, Koh Phi Phi, Krabi & other faves...",
-        standardPrice: 1235,
-        fromPrice: 1050,
+            "The one that sees you swish through the scenic south island kicking off in Christchurch.",
+        standardPrice: 2075,
+        fromPrice: 1868,
         blackFriday: false
 
     },
     {
         id: 2,
-        image: hike,
+        image: chitta,
         rating: 3.5,
-        title: "Tanzania Safaris Adventure",
+        title: "Tanzania Family Safaris",
         days: 8,
         places: 3,
         country: 1,
@@ -107,7 +131,7 @@ export const tripData = [
     
     {
         id: 3,
-        image: safari,
+        image: lions,
         rating: 4.6,
         title: "Tanzania Family Safaris",
         days: 8,
@@ -122,14 +146,14 @@ export const tripData = [
     },
     {
         id: 4,
-        image: safari,
+        image: tracking,
         rating: 4.6,
-        title: "Tanzania Family Safaris",
+        title: "Wildlife Budget Coultural Fly",
         days: 8,
         places: 3,
         country: 1,
         description:
-            "The one that takes you to west Thailand for a tour of Phuket, Koh Phi Phi, Krabi & other faves...",
+            "The one that gives you the ultimateGreek Island experience exploring Mykonos,Paros,Santorini and los",
         standardPrice: 1235,
         fromPrice: 1050,
         blackFriday: false
@@ -151,7 +175,7 @@ export const tripData = [
     },
     {
         id: 6,
-        image: safari,
+        image: iland,
         rating: 4.6,
         title: "Tanzania Family Safaris",
         days: 8,
@@ -169,9 +193,9 @@ export const tripData = [
 export const kilimanjaroData = [
     {
         id: 1,
-        image: lion,
+        image: mountainiland,
         rating: 4.6,
-        title: "Tanzania Family Safaris",
+        title: "Thai Island Hopper West",
         days: 8,
         places: 3,
         country: 1,
@@ -184,45 +208,45 @@ export const kilimanjaroData = [
     },
     {
         id: 2,
-        image: hike,
+        image:lack ,
         rating: 3.5,
-        title: "Tanzania Safaris Adventure",
+        title: "European Whirl",
         days: 8,
         places: 3,
         country: 1,
         description:
-            "The one that takes you to west Thailand for a tour of Phuket, Koh Phi Phi, Krabi & other faves...",
+            "The one that combines urban parties,ancient history and mountain beauty in 19 days",
         standardPrice: 1235,
-        fromPrice: 1050,
+        fromPrice: 3425,
         blackFriday: false
 
     },
     {
         id: 4,
-        image: safari,
+        image: footbridge,
         rating: 4.6,
-        title: "Tanzania Family Safaris",
+        title: "Croatia Island Sail",
         days: 8,
         places: 3,
         country: 1,
         description:
-            "The one that takes you to west Thailand for a tour of Phuket, Koh Phi Phi, Krabi & other faves...",
-        standardPrice: 1235,
-        fromPrice: 1050,
+            "The one that lets you cruise the Salmatian Coastline & go Croatian island hopping,from Split to...",
+        standardPrice: 1765,
+        fromPrice: 1616,
         blackFriday: false
 
     },{
         id: 5,
-        image: safari,
+        image: lackCave,
         rating: 4.6,
-        title: "Tanzania Family Safaris",
+        title: "great Britiain and Ireland",
         days: 8,
         places: 3,
         country: 1,
         description:
-            "The one that takes you to west Thailand for a tour of Phuket, Koh Phi Phi, Krabi & other faves...",
+            "The one that shows you Britain's best hotspots,topped off with The Emerald Isles",
         standardPrice: 1235,
-        fromPrice: 1050,
+        fromPrice: 3832,
         blackFriday: false
 
     }
@@ -230,42 +254,42 @@ export const kilimanjaroData = [
 export const destinations = [
   {
     title: "Serengeti",
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e",
+    image: chimpanzee,
   },
   {
     title: "Gombe",
-    image: "https://images.unsplash.com/photo-1508672019048-805c876b67e2",
+    image: crocodile,
   },
   {
     title: "Zanzibar",
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e",
+    image: cubs,
   },
   {
     title: "Tarengire",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    image: deear,
   },
   {
     title: "Manyara",
-    image: "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+    image: elephant,
   },
   {
     title: "Serengeti",
-    image: "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13",
+    image: grassy,
   },
   {
     title: "Gombe",
-    image: "https://images.unsplash.com/photo-1546182990-dffeafbe841d",
+    image: lion,
   },
   {
     title: "Tarengire",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    image: rhinoceros,
   },
   {
     title: "Tarengire",
-    image: "https://images.unsplash.com/photo-1547721064-da6cfb341d50",
+    image: zebra,
   },
   {
     title: "Manyara",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    image: smallChita,
   },
 ];

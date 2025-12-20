@@ -12,7 +12,6 @@
   justify-content: center;
 }
 
-/* Optional dark overlay for text readability */
 .popular-way-card::before {
   content: "";
   position: absolute;
@@ -24,14 +23,10 @@
   position: relative;
   padding: 8px 22px;
   border-radius: 999px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   color: #ffffff;
   z-index: 1;
 }
 
-/* Hover effect */
-.popular-way-card:hover {
-  transform: translateY(-4px);
-  transition: 0.3s ease;
-}
+

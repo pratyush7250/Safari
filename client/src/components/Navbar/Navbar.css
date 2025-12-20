@@ -1,4 +1,3 @@
-/* Top bar */
 .nav-up-content {
   padding: 12px 50px;
   border-bottom: 1px solid #ededed;
@@ -12,8 +11,11 @@
   color: #767676;
   list-style: none;
 }
+.nav-info li:hover{
+ color: #D87027;
+ cursor: pointer;
+}
 
-/* Navbar */
 .navbar {
   padding: 10px 50px;
   display: flex;
@@ -24,7 +26,6 @@
 .logo {
   width: 100px;
 }
-/* Menu */
 .navbar-menu {
   display: flex;
   gap: 22px;
@@ -42,13 +43,22 @@
   align-items: center;
   gap: 4px;
 }
+.navbar-menu a{
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 
 .navbar-menu li:hover,
 .navbar-menu .active {
   color: #d5661a;
 }
 
-/* Dropdown */
 .dropdown-menu {
   position: absolute;
   top: 18px;
@@ -69,16 +79,17 @@
   white-space: nowrap;
 }
 
+
 .dropdown-menu li:hover {
   background: #f8fafc;
   color: #d5661a;
 }
 
+
 .dropdown-menu.show {
   display: block;
 }
 
-/* Right */
 .navbar-right {
   display: flex;
   align-items: center;
@@ -102,7 +113,7 @@
 
 
 .desktop-btn {
-  background: #d5661a;
+  background: #D87027;
   color: #fff;
   border: none;
   width: 120px;
@@ -111,16 +122,15 @@
   font-weight: 700;
   cursor: pointer;
 }
+.desktop-btn:hover{
+  background: #C1570D;
+}
 
-/* Mobile menu icon */
 .menu-icon {
   display: none;
   cursor: pointer;
 }
 
-/* ========================= */
-/* MOBILE DRAWER */
-/* ========================= */
 
 .mobile-drawer {
   position: fixed;
@@ -158,6 +168,14 @@
   border-bottom: 1px solid #eee;
   cursor: pointer;
 }
+.drawer-menu a{
+   display: block;
+  padding: 14px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
 
 .drawer-btn {
   margin-top: 20px;
@@ -170,15 +188,15 @@
   font-weight: 700;
   cursor: pointer;
 }
-
-/* Overlay */
+.drawer-btn:hover{
+  background:#C1570D ;
+}
 .drawer-overlay {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
-/* Mobile drawer dropdown */
 .drawer-dropdown {
   display: flex;
   justify-content: space-between;
@@ -197,9 +215,7 @@
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* ========================= */
-/* RESPONSIVE */
-/* ========================= */
+
 
 @media (max-width: 1024px) {
   .nav-info {

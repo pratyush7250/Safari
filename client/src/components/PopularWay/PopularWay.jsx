@@ -5,7 +5,7 @@ import { wayData } from "../../assets/assets";
 
 const PopularWay = () => {
     return (
-        <div className="popular-way-container">
+        <div className="popular-way-container" id="zanzibar">
             <h2>Popular Way To Go</h2>
 
             <div className="popular-way-grid">

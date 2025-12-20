@@ -5,7 +5,7 @@ import { destinations } from "../../assets/assets";
 
 const Destination = () => {
   return (
-     <div className="popular-section">
+    <div className="popular-section" id='destination'>
       <h2>Popular Destinations</h2>
 
       <div className="destination-grid">
@@ -17,9 +17,9 @@ const Destination = () => {
           />
         ))}
       </div>
-   
-        <button className="view-all-btn">VIEW ALL TRIPS</button>
-      
+
+      <button className="view-all-btn">VIEW ALL TRIPS</button>
+
     </div>
   )
 }
